@@ -1,0 +1,10 @@
+[10-Feb-2018 17:10:28 Asia/Dhaka] PHP Fatal error:  Call to undefined method Accounts::accounts_summary() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Admin_dashboard.php on line 35
+[12-Feb-2018 05:42:42 UTC] PHP Fatal error:  Call to undefined method Settings::order_by() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/models/Settings.php on line 151
+[13-Feb-2018 08:30:10 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/softest8bdtask/public_html/pharmacy-v5.1/application/views/invoice/edit_invoice_form.php on line 134
+[13-Feb-2018 08:30:13 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/softest8bdtask/public_html/pharmacy-v5.1/application/views/invoice/edit_invoice_form.php on line 134
+[14-Feb-2018 06:53:51 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Cinvoice.php on line 250
+[14-Feb-2018 17:55:10 Asia/Dhaka] PHP Fatal error:  Call to undefined method Accounts::supplier_ledger_2() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Cpayment.php on line 177
+[14-Feb-2018 17:56:21 Asia/Dhaka] PHP Fatal error:  Call to undefined method Accounts::supplier_ledger_2() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Cpayment.php on line 177
+[14-Feb-2018 17:56:48 Asia/Dhaka] PHP Fatal error:  Call to undefined method Accounts::supplier_ledger_2() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Cpayment.php on line 177
+[14-Feb-2018 18:12:45 Asia/Dhaka] PHP Fatal error:  Call to undefined method Accounts::supplier_ledger_2() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Cpayment.php on line 177
+[14-Feb-2018 18:14:41 Asia/Dhaka] PHP Fatal error:  Call to undefined method Accounts::supplier_ledger_2() in /home/softest8bdtask/public_html/pharmacy-v5.1/application/controllers/Cpayment.php on line 177
