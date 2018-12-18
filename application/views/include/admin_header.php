@@ -39,17 +39,25 @@
             <span class="pe-7s-keypad"></span>
         </a>
 
-        <a href="<?php echo base_url('Cinvoice')?>" class="btn btn-success btn-outline" style=""><i class="ti-layout-accordion-list"></i> <?php echo display('invoice') ?></a>
+        <!-- <a href="<?php echo base_url('Cinvoice')?>" class="btn btn-success btn-outline" style=""><i class="ti-layout-accordion-list"></i> <?php echo display('invoice') ?></a>
 
         <a href="<?php echo base_url('Cpayment/receipt_transaction')?>" class="btn btn-success btn-outline" style=""><i class="fa fa-money"></i> <?php echo display('receipt')?></a>
 
         <a href="<?php echo base_url('Cpayment')?>" class="btn btn-success btn-outline" style=""><i class="fa fa-paypal" aria-hidden="true"></i> <?php echo display('payment')?></a>
 
-        <a href="<?php echo base_url('Cpurchase')?>" class="btn btn-success btn-outline" style=""><i class="ti-shopping-cart"></i> <?php echo display('purchase') ?></a>
+        <a href="<?php echo base_url('Cpurchase')?>" class="btn btn-success btn-outline" style=""><i class="ti-shopping-cart"></i> <?php echo display('purchase') ?></a> -->
 
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
+            <li class="dropdown dropdown-user">
+                <div class="image">
+                    <img src="<?php echo $users[0]['logo']?>" class="img-circle" alt="User Image" width="36" heigth="36">
+                </div>
+                <div class="info">
+                <p><?php echo $this->session->userdata('user_name')?></p>
 
+                </div>
+                </li>
                 <!-- settings -->
                 <li class="dropdown dropdown-user">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="pe-7s-settings"></i></a>
@@ -68,15 +76,15 @@
     <!-- sidebar -->
     <div class="sidebar">
         <!-- Sidebar user panel -->
-        <div class="user-panel text-center">
+        <!-- <div class="user-panel text-center">
             <div class="image">
-                <img src="<?php echo $users[0]['logo']?>" class="img-circle" alt="User Image">
+                <img src="<?php echo $users[0]['logo']?>" class="img-circle" alt="User Image" >
             </div>
             <div class="info">
                 <p><?php echo $this->session->userdata('user_name')?></p>
 
             </div>
-        </div>
+        </div> -->
         <!-- sidebar menu -->
         <ul class="sidebar-menu">
 

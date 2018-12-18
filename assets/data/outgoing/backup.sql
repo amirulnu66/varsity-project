@@ -123,3 +123,7 @@ INSERT INTO `supplier_product` (`product_id`, `supplier_id`, `supplier_price`, `
 INSERT INTO `product_information` (`product_id`, `product_name`, `generic_name`, `box_size`, `unit`, `product_location`, `category_id`, `tax`, `price`, `product_model`, `product_details`, `image`, `status`) VALUES ('67784237', 'Napa Extra (Parasitamol)', 'Paracitamol', '5', 'pc', '2', 'VB5GLHH96JVK1EO', 0, '2.5', 'Square', 'ddd', 'http://localhost/varsity-project/my-assets/image/product.png', 1);
 INSERT INTO `supplier_product` (`product_id`, `supplier_id`, `supplier_price`, `products_model`) VALUES ('29824655', 'BCVGRYB23JZDRHN1VH6Q', '2', 'dfasdf');
 INSERT INTO `product_information` (`product_id`, `product_name`, `generic_name`, `box_size`, `unit`, `product_location`, `category_id`, `tax`, `price`, `product_model`, `product_details`, `image`, `status`) VALUES ('29824655', 'Jerin 500  (Parasitamol)', 'Paracitamol', '5', 'pc', '1', 'VB5GLHH96JVK1EO', 0, 'ddd', 'dfasdf', '', 'http://localhost/varsity-project/my-assets/image/product.png', 1);
+UPDATE `users` SET `first_name` = 'Mr', `last_name` = 'Admin', `status` = '1'
+WHERE `user_id` = '1';
+UPDATE `user_login` SET `username` = 'admin@gmail.com', `password` = '41d99b369894eb1ec3f461135132d8bb'
+WHERE `user_id` = '1';
